@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+    width: 100%;
+    max-width: 1600px;
+    background-color: rgba(26, 11, 46, 1)
+
+}
+header .navigation{
+    /* margin-top: 16px;
+    margin-bottom: 16px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+header h2{
+    font-weight: 800;
+    font-size: 32px;
+    cursor: pointer;
+    
+
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+
+}
+nav ul a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.subscribe-btn{
+    
+    display: inline-flex;
+    border-radius: 20px;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px ;
+    background: linear-gradient(270deg,rgba(247, 233, 63, 1),rgba(251,9,180,1),rgba(145,0,248,1));
+    color: white;
+    gap: 10px;
+    cursor: pointer;
+    
+
+}
+.color-gradient{
+    background-image: linear-gradient(270deg,rgba(247, 233, 63, 1),rgba(251,9,180,1),rgba(145,0,248,1));
+    background-clip: text;
+    color: transparent;
+}
+/* main section style */
+main .hero-banner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/hero-circle.png),url(assets/hero-bg.png);
+    
+    background-position: center 30%,center 20%;
+    background-size: auto 60%,cover;
+    background-repeat: no-repeat,no-repeat;
+    width: 100%;
+    height: 80vh;
+    min-height: 500px;
+}
+main .hero-banner ,.cirle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+main .hero-banner .microphone{
+    padding-bottom: 80px;
+    
+
+
+}
+main .hero-banner .new-btn{
+    position: absolute;
+    top: 100px;
+    right: 530px;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    border-style: none;
+    background-color: rgba(0, 255, 136, 1);
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+
+
+    
+    
+   
+}
+
+
+
