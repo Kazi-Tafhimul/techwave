@@ -167,6 +167,7 @@ main .hero-banner{
 main .about{
     background-color: rgba(26, 11, 46, 1);
     padding-top: 150px;
+    padding-bottom: 80px;
 }
 main .about h1{
     font-weight:700;
@@ -282,32 +283,117 @@ main .about .inner-message{
     padding: 40px;
     grid-column: span 2;
 }
-
-
-
-
-/* .wrapper{
+.feature-episodes{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
-}
-main .hero-banner .circle-container {
-    width: 350px;
-    height: 350px;
-    position: relative;
+    gap: 40px;
+    width: 100%;
+    max-width: 1600px;
+    
+    
+
+    
     
 }
-.hero-banner .circle-container .circle{
+.feauture-heading,.host-title{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.feature-episodes .feature-card{
+    
+    margin-top: 30px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    
+    border-radius: 30px;
+    background-color: rgba(53,17,101,0.4);
+   
+}
+.feature-card iframe{
+    display: block;
     width: 100%;
-    height: 100%;
+    height: 180px;
+    border-radius: 20px;
+    border: none;
 
 }
-.hero-banner .circle-container .mic{
-    bottom: 80px;
-    right: 115px;
-    position: absolute;
-} */
+.feature-card h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+.feature-card p{
+    color: white;
+
+}
+.feature-card .clock{
+    color: rgba(0, 255, 136, 1);
+    margin-top: 20px;
+}
+.host-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 100px;
+    border-radius: 30px;
+    background-color:  rgba(53,17,101,0.4);
+    padding: 30px;
+}
+.host-section .host-info .host-name{
+   
+   color: white;
+   margin-bottom: 20px;
+   font-size: 32px;
+   font-weight: 700;
+}
+.host-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+}
+.host-info .image-part{
+    display: flex;
+    justify-content: flex-start;
+    
+    align-items: center;
+    gap: 20px;
+}
+.footer-banner{
+    background-image: url(assets/footer-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+footer h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+
+
+
 
 
 
